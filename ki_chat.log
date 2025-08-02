@@ -1,0 +1,400 @@
+2025-07-26 20:01:09,295 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-26 20:01:09,295 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-26 20:01:09,446 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-26 20:01:21,743 - __main__ - INFO - Loading model: Meta-Llama-3-8B-Instruct.Q4_K_M
+2025-07-26 20:01:21,743 - __main__ - INFO - Loading model with n_ctx=4096, n_threads=8, n_gpu_layers=35, chat_format=llama-3
+2025-07-26 20:01:21,743 - __main__ - INFO - Initialisiere Modell mit 4 Threads, 25 GPU-Layern, Batch-Größe 128 und CUDA: True
+2025-07-26 20:01:23,729 - __main__ - INFO - Model loaded successfully: Meta-Llama-3-8B-Instruct.Q4_K_M (1.99s)
+2025-07-26 20:01:23,730 - __main__ - INFO - Verwende max_tokens=3276 (Kontextfenster: 4096)
+2025-07-26 20:01:48,390 - __main__ - INFO - Antwort generiert in 26.65s, Tokens: 479/3276
+2025-07-26 20:02:03,913 - __main__ - INFO - Verwende max_tokens=3276 (Kontextfenster: 4096)
+2025-07-26 20:02:15,829 - __main__ - INFO - Antwort generiert in 11.92s, Tokens: 319/3276
+2025-07-26 20:02:34,734 - __main__ - INFO - Chat erfolgreich aktualisiert (ID: 8)
+2025-07-26 20:16:06,188 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-26 20:16:06,188 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-26 20:16:06,462 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-26 20:16:08,428 - __main__ - INFO - Chat erfolgreich aktualisiert (ID: 8)
+2025-07-26 20:21:34,195 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_apply_jarvis_theme'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2202, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1407, in __init__
+    self._apply_jarvis_theme()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_apply_jarvis_theme'
+2025-07-26 20:22:23,335 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-26 20:22:23,335 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-26 20:22:23,336 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute 'setup_gui'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2218, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1460, in __init__
+    self.setup_gui()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'setup_gui'
+2025-07-27 00:40:51,302 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:40:51,303 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:40:51,303 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'button'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2710, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2017, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1931, in setup_gui
+    self._apply_jarvis_theme()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1967, in _apply_jarvis_theme
+    self._configure_styles()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1821, in _configure_styles
+    background=self.theme.colors['button'],
+KeyError: 'button'
+2025-07-27 00:44:49,432 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:44:49,432 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:44:49,433 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'status'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3344, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2017, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1931, in setup_gui
+    self._apply_jarvis_theme()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1967, in _apply_jarvis_theme
+    self._configure_styles()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1871, in _configure_styles
+    background=self.theme.colors['status'],
+KeyError: 'status'
+2025-07-27 00:45:05,079 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:45:05,079 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:45:05,081 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'small'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3344, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2017, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1931, in setup_gui
+    self._apply_jarvis_theme()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1967, in _apply_jarvis_theme
+    self._configure_styles()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1873, in _configure_styles
+    font=self.theme.fonts['small'],
+KeyError: 'small'
+2025-07-27 00:45:38,520 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:45:38,520 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:45:38,526 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:45:38,533 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute 'load_chat'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3344, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2017, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1934, in setup_gui
+    self._create_menu_bar()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1679, in _create_menu_bar
+    command=self.load_chat
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'load_chat'
+2025-07-27 00:46:20,987 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:46:20,988 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:46:20,993 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:46:20,996 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute 'load_chat'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3411, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2017, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1934, in setup_gui
+    self._create_menu_bar()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 1679, in _create_menu_bar
+    command=self.load_chat
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'load_chat'
+2025-07-27 00:47:50,709 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:47:50,709 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:47:50,714 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:47:50,723 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_setup_sidebar'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3478, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2084, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2008, in setup_gui
+    self._setup_sidebar()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_setup_sidebar'
+2025-07-27 00:49:58,572 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:49:58,572 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:49:58,577 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:49:58,590 - __main__ - ERROR - Fehler beim Erstellen der Seitenleiste: 'EnhancedKIChatGUI' object has no attribute '_on_search_changed'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2021, in _setup_sidebar
+    self.search_var.trace('w', self._on_search_changed)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_on_search_changed'
+2025-07-27 00:49:58,591 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_on_search_changed'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3552, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2158, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2082, in setup_gui
+    self._setup_sidebar()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2021, in _setup_sidebar
+    self.search_var.trace('w', self._on_search_changed)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_on_search_changed'
+2025-07-27 00:51:00,041 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:51:00,041 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:51:00,046 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:51:00,062 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_setup_chat_area'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3581, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2187, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2114, in setup_gui
+    self._setup_chat_area()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_setup_chat_area'
+2025-07-27 00:51:55,728 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:51:55,728 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:51:55,734 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:51:55,745 - __main__ - ERROR - Fehler beim Einrichten des Chat-Bereichs: 'EnhancedKIChatGUI' object has no attribute '_on_send_message'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2140, in _setup_chat_area
+    self.user_input.bind('<Return>', self._on_send_message)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_on_send_message'
+2025-07-27 00:51:55,746 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_on_send_message'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3645, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2251, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2178, in setup_gui
+    self._setup_chat_area()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2140, in _setup_chat_area
+    self.user_input.bind('<Return>', self._on_send_message)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_on_send_message'
+2025-07-27 00:54:18,546 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:54:18,547 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:54:18,553 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:54:18,572 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_setup_status_bar'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3732, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2338, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2268, in setup_gui
+    self._setup_status_bar()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_setup_status_bar'
+2025-07-27 00:55:36,022 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:55:36,022 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:55:36,027 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:55:36,041 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_center_window'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3769, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2375, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2312, in setup_gui
+    self._center_window()
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_center_window'
+2025-07-27 00:56:44,809 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:56:44,810 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:56:44,814 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:56:44,851 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 00:56:44,851 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_display_message'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3819, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2425, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2356, in setup_gui
+    self._display_message("assistant", welcome_message)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_display_message'
+2025-07-27 00:58:48,194 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 00:58:48,194 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 00:58:48,200 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 00:58:48,253 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 00:58:48,253 - __main__ - CRITICAL - Kritischer Fehler in der Anwendung: 'EnhancedKIChatGUI' object has no attribute '_display_message'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 3819, in main
+    app = EnhancedKIChatGUI(root)
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2425, in __init__
+    self.setup_gui()
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2356, in setup_gui
+    self._display_message("assistant", welcome_message)
+AttributeError: 'EnhancedKIChatGUI' object has no attribute '_display_message'
+2025-07-27 01:00:06,221 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:00:06,221 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:00:06,227 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:00:06,271 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:00:06,279 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:00:06,279 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:00:06,280 - __main__ - ERROR - Fehler beim Aktualisieren des Sitzungskontexts: 'EnhancedKIChatGUI' object has no attribute 'display_message'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2965, in load_conversation
+    self.display_message(msg['role'], msg['content'])
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'display_message'
+2025-07-27 01:00:06,281 - __main__ - ERROR - Fehler beim Aktualisieren des Sitzungskontexts: name 'keywords' is not defined
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2977, in load_conversation
+    self.current_session.context['topics'] = list(keywords)[:10]  # Maximal 10 Schlüsselwörter
+NameError: name 'keywords' is not defined
+2025-07-27 01:04:53,714 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:04:53,714 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:04:53,730 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:04:53,799 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:04:53,807 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:04:53,807 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:05:06,158 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:05:43,616 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:10:35,380 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:10:35,381 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:10:35,385 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:10:35,431 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:10:35,436 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:10:35,436 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:10:41,987 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:10:53,414 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:10:57,565 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:18:08,374 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:18:08,375 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:18:08,381 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:18:08,437 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:18:08,444 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:18:08,444 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:18:10,322 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:28:40,991 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:28:40,992 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:28:40,996 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:28:41,039 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:28:41,043 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:28:41,044 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:28:44,757 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:29:44,407 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:29:44,407 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:29:44,412 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:29:44,455 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:29:44,459 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:29:44,459 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:29:46,296 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:42,566 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:30:42,566 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:30:42,572 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:30:42,616 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:42,621 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:30:42,621 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:44,152 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:49,668 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:58,153 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 01:30:58,153 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 01:30:58,158 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 01:30:58,211 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:30:58,219 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 01:30:58,219 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 01:31:07,983 - __main__ - WARNING - Chat-Liste-Frame nicht gefunden
+2025-07-27 13:42:59,780 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 13:42:59,780 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 13:42:59,780 - __main__ - INFO - Lade XTTS-v2 Modell...
+2025-07-27 13:42:59,781 - __main__ - ERROR - Fehler beim Laden des XTTS Modells: name 'TTS' is not defined
+2025-07-27 13:42:59,781 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-07-27 13:42:59,787 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 13:42:59,851 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:42:59,858 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 13:42:59,858 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:42:59,860 - __main__ - ERROR - Fehler beim Laden der letzten Konversation: 'EnhancedKIChatGUI' object has no attribute 'load_conversation'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2805, in load_latest_conversation
+    self.load_conversation(latest_conv['id'])
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'load_conversation'
+2025-07-27 13:46:28,280 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 13:46:28,280 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 13:46:28,282 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-07-27 13:46:28,282 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-07-27 13:46:28,288 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 13:46:28,348 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:46:28,353 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 13:46:28,353 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:46:28,354 - __main__ - ERROR - Fehler beim Laden der Konversation: 'EnhancedKIChatGUI' object has no attribute 'chat_history'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2814, in load_conversation
+    self.chat_history.configure(state='normal')
+AttributeError: 'EnhancedKIChatGUI' object has no attribute 'chat_history'
+2025-07-27 13:49:37,216 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-27 13:49:37,217 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-27 13:49:37,218 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-07-27 13:49:37,218 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-07-27 13:49:37,223 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-27 13:49:37,259 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:49:37,263 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-27 13:49:37,263 - __main__ - ERROR - Sidebar-Frame nicht gefunden, kann Chat-Liste nicht erstellen
+2025-07-27 13:49:37,887 - __main__ - ERROR - Fehler beim Laden der Konversation: 'DatabaseManager' object has no attribute 'get_conversation'
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2833, in load_conversation
+    conv = self.database.get_conversation(conversation_id)
+AttributeError: 'DatabaseManager' object has no attribute 'get_conversation'
+2025-07-31 21:21:53,483 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-31 21:21:53,484 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-31 21:21:53,484 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-07-31 21:21:53,485 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-07-31 21:21:53,490 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-31 21:21:53,586 - database_manager - ERROR - Fehler beim Abrufen der Konversationen: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12436 and this is thread id 12804.
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\database_manager.py", line 498, in get_conversations
+    cursor = conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12436 and this is thread id 12804.
+2025-07-31 21:21:53,587 - __main__ - INFO - Keine Konversationen gefunden
+2025-07-31 21:21:53,592 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-31 21:21:53,592 - database_manager - ERROR - Fehler beim Abrufen der Konversationen: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12436 and this is thread id 9208.
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\database_manager.py", line 498, in get_conversations
+    cursor = conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12436 and this is thread id 9208.
+2025-07-31 21:21:53,593 - __main__ - INFO - Keine Konversationen gefunden
+2025-07-31 21:21:54,056 - database_manager - ERROR - Fehler beim Abrufen der Konversation 8: no such column: model_used
+2025-07-31 21:29:14,001 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-07-31 21:29:14,001 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-07-31 21:29:14,003 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-07-31 21:29:14,003 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-07-31 21:29:14,009 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-07-31 21:29:14,086 - __main__ - INFO - Keine Konversationen gefunden
+2025-07-31 21:29:14,092 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-07-31 21:29:14,093 - __main__ - INFO - Keine Konversationen gefunden
+2025-07-31 21:29:30,495 - __main__ - ERROR - Fehler beim Senden der Nachricht: get() takes 1 positional argument but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2389, in _on_send_message
+    message = self.user_input.get("1.0", "end-1c").strip()
+TypeError: get() takes 1 positional argument but 3 were given
+2025-07-31 21:29:33,357 - __main__ - ERROR - Fehler beim Senden der Nachricht: get() takes 1 positional argument but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2389, in _on_send_message
+    message = self.user_input.get("1.0", "end-1c").strip()
+TypeError: get() takes 1 positional argument but 3 were given
+2025-08-02 15:39:28,050 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-08-02 15:39:28,051 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-08-02 15:39:28,051 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-08-02 15:39:28,051 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-08-02 15:39:28,056 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-08-02 15:39:28,145 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:39:28,147 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-08-02 15:39:28,148 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:41:08,110 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-08-02 15:41:08,111 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-08-02 15:41:08,111 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-08-02 15:41:08,111 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-08-02 15:41:08,117 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-08-02 15:41:08,170 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:41:08,174 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-08-02 15:41:08,174 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:41:29,562 - __main__ - ERROR - Fehler beim Senden der Nachricht: get() takes 1 positional argument but 3 were given
+Traceback (most recent call last):
+  File "C:\Users\emeye\Desktop\KI\KI.py", line 2393, in _on_send_message
+    message = self.user_input.get("1.0", tk.END).strip()
+TypeError: get() takes 1 positional argument but 3 were given
+2025-08-02 15:42:52,894 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-08-02 15:42:52,894 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-08-02 15:42:52,894 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-08-02 15:42:52,895 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-08-02 15:42:52,900 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-08-02 15:42:52,957 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:42:52,960 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-08-02 15:42:52,961 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:52:59,095 - __main__ - INFO - Discovered model: Meta-Llama-3-8B-Instruct.Q4_K_M (general)
+2025-08-02 15:52:59,095 - __main__ - INFO - Discovered model: Nous-Hermes-2-Mistral-7B-DPO.Q4_K_M (creative)
+2025-08-02 15:52:59,096 - __main__ - INFO - XTTS ist deaktiviert, verwende gTTS für die Sprachausgabe
+2025-08-02 15:52:59,096 - __main__ - INFO - Sprachprobe geladen: Jarvis
+2025-08-02 15:52:59,102 - __main__ - WARNING - Konnte das Fenster-Icon nicht laden: bitmap "assets/icon.ico" not defined
+2025-08-02 15:52:59,158 - __main__ - INFO - Keine Konversationen gefunden
+2025-08-02 15:52:59,161 - __main__ - INFO - GUI erfolgreich initialisiert
+2025-08-02 15:52:59,162 - __main__ - INFO - Keine Konversationen gefunden
